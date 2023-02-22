@@ -1,0 +1,244 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@10.23.1">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports/>
+  <elements class="linked-hash-set">
+    <issue>
+      <category>Empty Code</category>
+      <type>EmptyCatchBlock</type>
+      <severity>NORMAL</severity>
+      <lineStart>89</lineStart>
+      <lineEnd>91</lineEnd>
+      <columnStart>9</columnStart>
+      <columnEnd>11</columnEnd>
+      <lineRanges/>
+      <id>a9e4d070-d7e3-404e-ac9a-5cc058907d35</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName>com.devopsdemo.tutorial.addressbook</packageName>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName>src/main/java/com/devopsdemo/tutorial/addressbook/ContactForm.java</fileName>
+      <message>Avoid empty catch blocks.</message>
+      <description></description>
+      <fingerprint>02D01686A4B91EEB1EFD7C8B30810A99</fingerprint>
+    </issue>
+    <issue>
+      <category>Unnecessary</category>
+      <type>UselessParentheses</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>62</lineStart>
+      <lineEnd>62</lineEnd>
+      <columnStart>41</columnStart>
+      <columnEnd>86</columnEnd>
+      <lineRanges/>
+      <id>ddd1a56e-a176-4405-afbd-47ee227be749</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName>com.devopsdemo.tutorial.addressbook.backend</packageName>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName>src/main/java/com/devopsdemo/tutorial/addressbook/backend/ContactService.java</fileName>
+      <message>Useless parentheses.</message>
+      <description></description>
+      <fingerprint>4E60814BF86236F8D1C2BD98872001B6</fingerprint>
+    </issue>
+    <issue>
+      <category>Empty Code</category>
+      <type>EmptyFinallyBlock</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>57</lineStart>
+      <lineEnd>58</lineEnd>
+      <columnStart>10</columnStart>
+      <columnEnd>10</columnEnd>
+      <lineRanges/>
+      <id>aee82beb-5c69-4572-9509-bf68f609e631</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName>com.devopsdemo.utilities</packageName>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName>src/main/java/com/devopsdemo/utilities/PropertyHelper.java</fileName>
+      <message>Avoid empty finally blocks.</message>
+      <description></description>
+      <fingerprint>799796A71F77E05E914101D22C4549B5</fingerprint>
+    </issue>
+    <issue>
+      <category>Empty Code</category>
+      <type>EmptyFinallyBlock</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>82</lineStart>
+      <lineEnd>83</lineEnd>
+      <columnStart>10</columnStart>
+      <columnEnd>10</columnEnd>
+      <lineRanges/>
+      <id>d7d15e38-717f-4d3a-980b-1948d4002478</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName reference="../../issue[3]/fileName"/>
+      <message reference="../../issue[3]/message"/>
+      <description></description>
+      <fingerprint>799796A71F77E05E914101D22C4549B5</fingerprint>
+    </issue>
+    <issue>
+      <category>Unused Code</category>
+      <type>UnusedPrivateField</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>39</lineStart>
+      <lineEnd>39</lineEnd>
+      <columnStart>37</columnStart>
+      <columnEnd>39</columnEnd>
+      <lineRanges/>
+      <id>5340b3b9-7c98-4d6a-b8ca-2a1813625d20</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName>src/main/java/com/devopsdemo/utilities/PropertyLoader.java</fileName>
+      <message>Avoid unused private fields such as &apos;LOG&apos;.</message>
+      <description></description>
+      <fingerprint>408A5922B34E49C7A497312E60E24BB8</fingerprint>
+    </issue>
+    <issue>
+      <category>Empty Code</category>
+      <type>EmptyCatchBlock</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>96</lineStart>
+      <lineEnd>96</lineEnd>
+      <columnStart>25</columnStart>
+      <columnEnd>51</columnEnd>
+      <lineRanges/>
+      <id>e26a16ea-f851-4d28-a373-14319765f093</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName reference="../../issue[5]/fileName"/>
+      <message reference="../../issue/message"/>
+      <description></description>
+      <fingerprint>61E6A0EFC880A05E422C224CB330EDF5</fingerprint>
+    </issue>
+    <issue>
+      <category>Unnecessary</category>
+      <type>UselessParentheses</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>98</lineStart>
+      <lineEnd>98</lineEnd>
+      <columnStart>47</columnStart>
+      <columnEnd>60</columnEnd>
+      <lineRanges/>
+      <id>56ab037a-6da0-415e-9ce8-dd6c99b0861f</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName reference="../../issue[5]/fileName"/>
+      <message reference="../../issue[2]/message"/>
+      <description></description>
+      <fingerprint>A96180725F18DE1014E370737D0CB7AC</fingerprint>
+    </issue>
+    <issue>
+      <category>Unused Code</category>
+      <type>UnusedPrivateField</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>66</lineStart>
+      <lineEnd>66</lineEnd>
+      <columnStart>37</columnStart>
+      <columnEnd>39</columnEnd>
+      <lineRanges/>
+      <id>247ef1fb-357a-41bf-bf7b-84e2fa1e48bd</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName>src/main/java/com/devopsdemo/utilities/StringUtilities.java</fileName>
+      <message reference="../../issue[5]/message"/>
+      <description></description>
+      <fingerprint>156BCECFCF56CF6C13AB3FA9AAA47EA5</fingerprint>
+    </issue>
+    <issue>
+      <category>Unnecessary</category>
+      <type>UselessParentheses</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>136</lineStart>
+      <lineEnd>136</lineEnd>
+      <columnStart>22</columnStart>
+      <columnEnd>34</columnEnd>
+      <lineRanges/>
+      <id>ed167a51-427b-4805-a2dd-084effd0ce2f</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName reference="../../issue[8]/fileName"/>
+      <message reference="../../issue[2]/message"/>
+      <description></description>
+      <fingerprint>EABD9934AD5C01AE7C68801DC656FD26</fingerprint>
+    </issue>
+    <issue>
+      <category>Unnecessary</category>
+      <type>UselessParentheses</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>183</lineStart>
+      <lineEnd>183</lineEnd>
+      <columnStart>31</columnStart>
+      <columnEnd>71</columnEnd>
+      <lineRanges/>
+      <id>bf9e00a1-5ac2-4223-bb74-95c5d33194b8</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName reference="../../issue[8]/fileName"/>
+      <message reference="../../issue[2]/message"/>
+      <description></description>
+      <fingerprint>E5CF6EFFD3984DCDF660CE642CB02B76</fingerprint>
+    </issue>
+    <issue>
+      <category>Unnecessary</category>
+      <type>UselessParentheses</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>184</lineStart>
+      <lineEnd>184</lineEnd>
+      <columnStart>34</columnStart>
+      <columnEnd>74</columnEnd>
+      <lineRanges/>
+      <id>0c418089-a3bc-4d1d-a353-8eb9c5c5a648</id>
+      <reference>17</reference>
+      <origin>pmd</origin>
+      <originName>PMD</originName>
+      <moduleName>codereview</moduleName>
+      <packageName reference="../../issue[3]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/codereview</pathName>
+      <fileName reference="../../issue[8]/fileName"/>
+      <message reference="../../issue[2]/message"/>
+      <description></description>
+      <fingerprint>24001213E763144E6999214473A4BA0B</fingerprint>
+    </issue>
+  </elements>
+  <infoMessages/>
+  <errorMessages/>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

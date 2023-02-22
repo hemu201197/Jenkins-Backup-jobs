@@ -1,0 +1,49 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@10.23.1">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports>
+    <analysisReport>
+      <id>pmd</id>
+      <name>PMD</name>
+      <originReportFile>-</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages>
+        <string>Searching for all files in &apos;/var/lib/jenkins/workspace/codereview&apos; that match the pattern &apos;**/pmd1.xml&apos;</string>
+        <string>Traversing of symbolic links: enabled</string>
+        <string>Skipping post processing</string>
+        <string>No filter has been set, publishing all 0 issues</string>
+      </infoMessages>
+      <errorMessages>
+        <string>Errors during parsing</string>
+        <string>No files found for pattern &apos;**/pmd1.xml&apos;. Configuration error?</string>
+      </errorMessages>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+  </subReports>
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/lib/jenkins/workspace/codereview&apos; that match the pattern &apos;**/pmd1.xml&apos;</string>
+    <string>Traversing of symbolic links: enabled</string>
+    <string>Skipping post processing</string>
+    <string>No filter has been set, publishing all 0 issues</string>
+    <string>Repository miner is not configured, skipping repository mining</string>
+    <string>Reference build recorder is not configured</string>
+    <string>Obtaining reference build from same job (codereview)</string>
+    <string>No valid reference build found that meets the criteria (NO_JOB_FAILURE - SUCCESSFUL_QUALITY_GATE)</string>
+    <string>All reported issues will be considered outstanding</string>
+    <string>No quality gates have been set - skipping</string>
+    <string>Health report is disabled - skipping</string>
+    <string>Created analysis result for 0 issues (found 0 new issues, fixed 0 issues)</string>
+    <string>Attaching ResultAction with ID &apos;pmd&apos; to build &apos;codereview #13&apos;.</string>
+  </infoMessages>
+  <errorMessages>
+    <string>Errors during parsing</string>
+    <string>No files found for pattern &apos;**/pmd1.xml&apos;. Configuration error?</string>
+  </errorMessages>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

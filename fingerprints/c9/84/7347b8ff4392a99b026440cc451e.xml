@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-08 05:35:06.7 UTC</timestamp>
+  <md5sum>c9847347b8ff4392a99b026440cc451e</md5sum>
+  <fileName>org.slf4j:slf4j-simple-1.7.7.jar</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>package/com.devopsdemo.tutorial:sampleapp</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

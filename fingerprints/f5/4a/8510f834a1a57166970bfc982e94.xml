@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-08 05:35:05.992 UTC</timestamp>
+  <md5sum>f54a8510f834a1a57166970bfc982e94</md5sum>
+  <fileName>commons-collections:commons-collections-3.2.2.jar</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>package/com.devopsdemo.tutorial:sampleapp</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

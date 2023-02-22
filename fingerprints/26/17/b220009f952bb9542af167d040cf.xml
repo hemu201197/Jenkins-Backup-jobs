@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-08 05:35:05.917 UTC</timestamp>
+  <md5sum>2617b220009f952bb9542af167d040cf</md5sum>
+  <fileName>commons-codec:commons-codec-1.2.jar</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>package/com.devopsdemo.tutorial:sampleapp</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

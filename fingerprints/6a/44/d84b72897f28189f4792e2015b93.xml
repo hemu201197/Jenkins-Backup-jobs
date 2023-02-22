@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-08 05:35:05.997 UTC</timestamp>
+  <md5sum>6a44d84b72897f28189f4792e2015b93</md5sum>
+  <fileName>log4j:log4j-1.2.9.jar</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>package/com.devopsdemo.tutorial:sampleapp</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Feb 08 06:23:39 UTC 2023
+https\://repo.maven.apache.org/maven2/.lastUpdated=1675837419250
+http\://0.0.0.0/.error=Could not transfer artifact org.mortbay.jetty\:jetty-util\:pom\:6.1.14 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [vaadin-snapshots (http\://oss.sonatype.org/content/repositories/vaadin-snapshots/, default, snapshots), codehaus-snapshots (http\://nexus.codehaus.org/snapshots/, default, snapshots), codehaus.org (http\://snapshots.repository.codehaus.org, default, snapshots), java.net (http\://download.java.net/maven/2, default, releases), m1.java.net (http\://download.java.net/maven/1, legacy, releases)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1675837419219

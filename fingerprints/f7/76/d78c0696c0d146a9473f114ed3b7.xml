@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-08 07:28:40.244 UTC</timestamp>
+  <original>
+    <name>package/com.devopsdemo.tutorial:sampleapp</name>
+    <number>3</number>
+  </original>
+  <md5sum>f776d78c0696c0d146a9473f114ed3b7</md5sum>
+  <fileName>com.devopsdemo.tutorial:sampleapp.war</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>package/com.devopsdemo.tutorial:sampleapp</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

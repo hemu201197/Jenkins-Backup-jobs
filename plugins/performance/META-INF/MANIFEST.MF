@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Performance Plugin
+Specification-Version: 0.0
+Implementation-Title: Performance Plugin
+Implementation-Version: 916.v0f63142e4c07
+Group-Id: org.jenkins-ci.plugins
+Short-Name: performance
+Long-Name: Performance Plugin
+Url: https://github.com/jenkinsci/performance-plugin
+Plugin-Version: 916.v0f63142e4c07
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Developers: Andrey Pokhilko (CA BlazeMeter):undera:andrey@blazeme
+ ter.com,Artem Fedorov (CA BlazeMeter):artem_fedorov:artem.fedorov@blaze
+ meter.com,Alexander Straube:a_st:alexander.straube@gmail.com
+Plugin-ScmUrl: https://github.com/jenkinsci/performance-plugin
+

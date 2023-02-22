@@ -1,0 +1,50 @@
+Started by GitHub push by hemu201197
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/codecompile
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/codecompile/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/hemu201197/samplejavaapp # timeout=10
+Fetching upstream changes from https://github.com/hemu201197/samplejavaapp
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/hemu201197/samplejavaapp +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2d361487eb72da5661434a5e8d725149b5b97366 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2d361487eb72da5661434a5e8d725149b5b97366 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[codecompile] $ /bin/sh -xe /tmp/jenkins1836020818808306739.sh
++ /opt/maven/bin/mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.devopsdemo.tutorial:sampleapp >------------------
+[INFO] Building Vaadin Sampleapp example 2.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ sampleapp ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (default) @ sampleapp ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/var/lib/jenkins/workspace/codecompile/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sampleapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/codecompile/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ sampleapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /var/lib/jenkins/workspace/codecompile/target/classes
+[INFO] /var/lib/jenkins/workspace/codecompile/src/main/java/com/devopsdemo/tutorial/addressbook/ContactForm.java: Some input files use or override a deprecated API.
+[INFO] /var/lib/jenkins/workspace/codecompile/src/main/java/com/devopsdemo/tutorial/addressbook/ContactForm.java: Recompile with -Xlint:deprecation for details.
+[INFO] /var/lib/jenkins/workspace/codecompile/src/main/java/com/devopsdemo/tutorial/addressbook/backend/ContactService.java: /var/lib/jenkins/workspace/codecompile/src/main/java/com/devopsdemo/tutorial/addressbook/backend/ContactService.java uses unchecked or unsafe operations.
+[INFO] /var/lib/jenkins/workspace/codecompile/src/main/java/com/devopsdemo/tutorial/addressbook/backend/ContactService.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.677 s
+[INFO] Finished at: 2023-02-09T06:17:54Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4KLcY5DmUHpoNIUkxHyFHAWv9XAkUBMnBLnwMNg2LjS/AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP1koBOLUssyU8v1AbYKQSLFAAAA[0mcodereview
+Finished: SUCCESS

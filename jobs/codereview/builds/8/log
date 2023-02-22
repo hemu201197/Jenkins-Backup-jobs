@@ -1,0 +1,103 @@
+Started by user [8mha:////4E0DttnetQPCU74bwnB1DiQ6yXBLrJ70W0UwEHMgd1bQAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/codereview
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/codereview/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lerndevops/samplejavaapp # timeout=10
+Fetching upstream changes from https://github.com/lerndevops/samplejavaapp
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/lerndevops/samplejavaapp +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 000c3424bc0b1747d08cc0fd7268f9d608143661 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 000c3424bc0b1747d08cc0fd7268f9d608143661 # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 000c3424bc0b1747d08cc0fd7268f9d608143661 # timeout=10
+[codereview] $ /opt/maven/bin/mvn -f pom.xml -P metrics pmd:pmd
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.devopsdemo.tutorial:sampleapp >------------------
+[INFO] Building Vaadin Sampleapp example 2.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4NeYFZy6FcqGO/ks/7xsFBAwviom9zJvVVw+oOL5letKAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-pmd-plugin:3.2:pmd (default-cli) @ sampleapp ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.512 s
+[INFO] Finished at: 2023-02-07T17:36:05Z
+[INFO] ------------------------------------------------------------------------
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/codereview' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/codereview/target/pmd.xml
+[PMD] -> found 11 issues (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/codereview'
+[PMD] -> resolved paths in source directory (5 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 11 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 11 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 11 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/codereview/builds/8/files-with-issues'
+[PMD] -> 5 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Repository miner is not configured, skipping repository mining
+[PMD] Reference build recorder is not configured
+[PMD] Obtaining reference build from same job (codereview)
+[PMD] No valid reference build found that meets the criteria (NO_JOB_FAILURE - SUCCESSFUL_QUALITY_GATE)
+[PMD] All reported issues will be considered outstanding
+[PMD] No quality gates have been set - skipping
+[PMD] Health report is disabled - skipping
+[PMD] Created analysis result for 11 issues (found 0 new issues, fixed 0 issues)
+[PMD] Attaching ResultAction with ID 'pmd' to build 'codereview #8'.
+[Checks API] No suitable checks publisher found.
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/codereview' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/codereview/target/pmd.xml
+[PMD] -> found 11 issues (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/codereview'
+[PMD] -> resolved paths in source directory (5 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 11 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 11 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 11 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/codereview/builds/8/files-with-issues'
+[PMD] -> 0 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Repository miner is not configured, skipping repository mining
+ERROR: Build step failed with exception
+java.lang.IllegalStateException: ID pmd is already used by another action: io.jenkins.plugins.analysis.core.model.ResultAction for PMD
+
+	at io.jenkins.plugins.analysis.core.steps.IssuesPublisher.ensureThatIdIsUnique(IssuesPublisher.java:146)
+	at io.jenkins.plugins.analysis.core.steps.IssuesPublisher.attachAction(IssuesPublisher.java:97)
+	at io.jenkins.plugins.analysis.core.steps.IssuesRecorder.publishResult(IssuesRecorder.java:861)
+	at io.jenkins.plugins.analysis.core.steps.IssuesRecorder.record(IssuesRecorder.java:781)
+	at io.jenkins.plugins.analysis.core.steps.IssuesRecorder.perform(IssuesRecorder.java:743)
+	at io.jenkins.plugins.analysis.core.steps.IssuesRecorder.perform(IssuesRecorder.java:719)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1925)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Build step 'Record compiler warnings and static analysis results' marked build as failure
+Finished: FAILURE

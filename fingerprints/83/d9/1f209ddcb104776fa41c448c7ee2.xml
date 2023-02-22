@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-08 05:35:06.2 UTC</timestamp>
+  <md5sum>83d91f209ddcb104776fa41c448c7ee2</md5sum>
+  <fileName>junit:junit-4.13.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>package/com.devopsdemo.tutorial:sampleapp</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

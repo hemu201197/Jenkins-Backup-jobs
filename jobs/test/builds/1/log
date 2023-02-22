@@ -1,0 +1,14 @@
+Started by user [8mha:////4E0DttnetQPCU74bwnB1DiQ6yXBLrJ70W0UwEHMgd1bQAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins12014308561878631100.sh
++ pwd
+/var/lib/jenkins/workspace/test
++ id
+uid=112(jenkins) gid=116(jenkins) groups=116(jenkins)
++ echo This is a test build
+This is a test build
++ date
+Tue Feb  7 15:23:10 UTC 2023
++ echo This is a successful build
+Finished: SUCCESS

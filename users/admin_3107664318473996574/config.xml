@@ -1,0 +1,94 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>admin</id>
+  <fullName>administrator</fullName>
+  <properties>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1214.v1de940103927">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.93">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.3.7">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed>
+        <string>buildQueue</string>
+      </collapsed>
+    </hudson.model.PaneStatusProperties>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>b23079810039851f</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.model.TimeZoneProperty/>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$4gYiSewHeGDrIAwb.ko6uOF9yUCVjRm7VJSIO1PDIsn/NIVyZ9tyG</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@448.v5b_97805e3767">
+      <emailAddress>admin@admin</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>aa1f17b8-6d8c-49f6-9ba9-9250cf5cc7d2</uuid>
+            <name>test</name>
+            <creationDate>2023-02-07 16:35:14.687 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>baa144528a66f528857252f139a56c95bb86d19fa69f87c12afc3dc81ae985a5</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>810e59c9-155b-4209-8227-b0c72e939ca3</uuid>
+            <name>test</name>
+            <creationDate>2023-02-08 14:48:05.623 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>c3c00d7385006e144e6994a8a92aa4001ec8fac019fd3149cc96ce5bc299fe44</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>58161e9c-2722-42be-a6c2-2c4771d64b34</uuid>
+            <name>test</name>
+            <creationDate>2023-02-09 10:29:02.473 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>98c7fbfcfb97b06bc32b441b63857b9819cf5c013f99fab591b45c286e08745a</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>e6d551dc-9566-4ec9-b436-8d8c87eba7b5</uuid>
+            <name>test</name>
+            <creationDate>2023-02-09 16:43:46.829 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>168173d8fbfbe0d495265b73ae2cd2f5669d9a9c545ae4ec14ebcf55dd2ea8c3</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1675788582567</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+  </properties>
+</user>

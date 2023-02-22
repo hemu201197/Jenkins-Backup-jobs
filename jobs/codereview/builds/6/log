@@ -1,0 +1,33 @@
+Started by user [8mha:////4E0DttnetQPCU74bwnB1DiQ6yXBLrJ70W0UwEHMgd1bQAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/codereview
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/codereview/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lerndevops/samplejavaapp # timeout=10
+Fetching upstream changes from https://github.com/lerndevops/samplejavaapp
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/lerndevops/samplejavaapp +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 000c3424bc0b1747d08cc0fd7268f9d608143661 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 000c3424bc0b1747d08cc0fd7268f9d608143661 # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 000c3424bc0b1747d08cc0fd7268f9d608143661 # timeout=10
+[codereview] $ /opt/maven/bin/mvn -f pom.xml -P metrics pmd:pmd
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.devopsdemo.tutorial:sampleapp >------------------
+[INFO] Building Vaadin Sampleapp example 2.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4NeYFZy6FcqGO/ks/7xsFBAwviom9zJvVVw+oOL5letKAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-pmd-plugin:3.2:pmd (default-cli) @ sampleapp ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.863 s
+[INFO] Finished at: 2023-02-07T17:32:40Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

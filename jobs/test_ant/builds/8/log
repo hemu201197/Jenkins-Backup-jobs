@@ -1,0 +1,27 @@
+Started by user [8mha:////4E0DttnetQPCU74bwnB1DiQ6yXBLrJ70W0UwEHMgd1bQAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test_ant
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test_ant/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/hemu201197/testant # timeout=10
+Fetching upstream changes from https://github.com/hemu201197/testant
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/hemu201197/testant +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e46da63551a5f67a48715d609fae13179614a58f (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e46da63551a5f67a48715d609fae13179614a58f # timeout=10
+Commit message: "Update build.xml"
+ > git rev-list --no-walk e46da63551a5f67a48715d609fae13179614a58f # timeout=10
+[test_ant] $ ant -Djob=test test
+Buildfile: /var/lib/jenkins/workspace/test_ant/build.xml
+
+[8mha:////4M53KpwVLg68LPRFs3G+VRbe0UVMg2PDggt445rKnkmXAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtest:
+     [echo] Hello World!
+
+[8mha:////4Fve+7/AoyJyIiD5H57tZHfQwyUYRNcTovp5nN7em115AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 0 seconds
+Finished: SUCCESS

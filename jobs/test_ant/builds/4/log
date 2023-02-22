@@ -1,0 +1,27 @@
+Started by user [8mha:////4E0DttnetQPCU74bwnB1DiQ6yXBLrJ70W0UwEHMgd1bQAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test_ant
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test_ant/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/hemu201197/testant # timeout=10
+Fetching upstream changes from https://github.com/hemu201197/testant
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/hemu201197/testant +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 5b19cc5c06ecdf37ad974ed3aeb7452e61240220 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5b19cc5c06ecdf37ad974ed3aeb7452e61240220 # timeout=10
+Commit message: "Update build.xml"
+ > git rev-list --no-walk 96b01d16305dfe80501318fb39eafa3b9c6f20ea # timeout=10
+[test_ant] $ ant test
+Buildfile: /var/lib/jenkins/workspace/test_ant/build.xml
+
+[8mha:////4Fve+7/AoyJyIiD5H57tZHfQwyUYRNcTovp5nN7em115AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD FAILED
+/var/lib/jenkins/workspace/test_ant/build.xml:14: The markup in the document following the root element must be well-formed.
+
+Total time: 0 seconds
+Build step 'Invoke Ant' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-08 05:35:05.841 UTC</timestamp>
+  <original>
+    <name>package/com.devopsdemo.tutorial:sampleapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>deb6c57f03d3f1a19caee5e1fab4f35f</md5sum>
+  <fileName>com.devopsdemo.tutorial:sampleapp:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>package/com.devopsdemo.tutorial:sampleapp</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
